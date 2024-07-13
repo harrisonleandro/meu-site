@@ -17,9 +17,12 @@ header {
     background-image: url('../imagens/bannersite.jpg');
     background-position: center center;
     background-size: cover;
+    padding-top: 15px;
 }
 header h1, p {
     color: white;
+    padding: 15px;
+    text-align: center;
 }
 header img {
     width: 100%;
