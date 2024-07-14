@@ -1,17 +1,20 @@
 @charset "UTF-8";
 
-* {
-    font-family: Arial, Helvetica, sans-serif;
+.share-tech-regular {
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 body {
-    background-size: cover;
-    background-image: url('imagens/fundo.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    }
+background-color: #010326;
+background-size: cover;
+background-image: url('imagens/fundo.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 100vh;
+margin: 0px;
+font-family: "Share Tech", sans-serif;
+}
 
 header {
     background-image: url('../imagens/bannersite.jpg');
@@ -53,15 +56,18 @@ nav > div> a:hover {
     color: black;
 }
 main {
-    background-color: white;
-    color: red;
-    min-width: 300;
-    max-width: 1000px;
+    color: white;
     padding: 5px 30px 5px 30px;
-    margin: auto;
-    margin-top: 10px;
-    border: 3px solid black;
-    border-radius: 10px;
+    text-align: center;
+}
+main section{
+    min-width: 400px;
+    max-width: 750px;
+}
+section h1{
+    text-align: center;
+}
+section p{
     text-align: justify;
 }
 article > h1 {
@@ -91,10 +97,16 @@ section#img02 {
 
 }*/
 footer {
-    background-color: black;
-    margin-top: 10px;
-    padding-bottom: 10px;
+    max-height: 0px;
 }
 footer p{
-    margin: 0px;
+    background-color: black;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+iframe#tela {
+    width: 95vw;
+    height: 100vh;
+    display: block;
+    margin: auto;
 }
