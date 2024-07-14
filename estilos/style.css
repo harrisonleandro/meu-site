@@ -56,19 +56,23 @@ nav > div> a:hover {
     color: black;
 }
 main {
-    color: white;
-    padding: 5px 30px 5px 30px;
-    text-align: center;
+    height: 100vh;
+    padding: 0px;
 }
 main section{
     min-width: 400px;
     max-width: 750px;
 }
-section h1{
-    text-align: center;
+
+div.titulo {
+    display: block;
+    color: yellow;
 }
-section p{
-    text-align: justify;
+article {
+    color: white;
+    align-items: center;
+    width: 100%;
+    
 }
 article > h1 {
     text-align: center;
@@ -77,36 +81,28 @@ a {
     text-decoration: none;
 }
 section {
-    padding-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+   
 }
-section.normal {
-    background-color: darkgray;
+section.conteudo {
+    width: 100%;
 }
-section.image {
-    background-color: #152D59;
-    height: 20em;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
-}
-/*section#img01 {
-    background-image: url('imagens/zombiewallpaper.jpg');
-}
-section#img02 {
-    background-image: url('imagens/ordawallpaper.jpg');
-
-}*/
 footer {
     max-height: 0px;
+    padding-top: 15px;
 }
 footer p{
     background-color: black;
     justify-content: center;
     padding-bottom: 50px;
+    margin: 0px;
 }
 iframe#tela {
-    width: 95vw;
-    height: 100vh;
-    display: block;
-    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 100%;
+    height: 98vh;
+    display: flex;
 }

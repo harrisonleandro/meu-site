@@ -13,8 +13,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
-    margin: 0px;
     font-family: "Share Tech", sans-serif;
+    margin: 0px;
     }
 
 header {
@@ -27,9 +27,6 @@ header h1, p {
     color: white;
     padding: 15px;
     text-align: center;
-}
-header img {
-    width: 100%;
 }
 nav {
     display: flex;
@@ -57,13 +54,14 @@ nav > div> a:hover {
     color: black;
 }
 article {
-    display: flex;
+    display: block;
     flex-direction: column;
     color: white;
     align-items: center;
 }
 div.titulo {
-    display: block;
+    display: flex;
+    justify-content: center;
     color: yellow;
 }
 form {
@@ -71,7 +69,6 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     padding-top: 30px;
 }
 form p {
@@ -141,6 +138,7 @@ a:hover {
 }
 footer {
     max-height: 0px;
+    
 }
 footer p{
     background-color: black;
