@@ -11,6 +11,23 @@ function entrar() {
 
 //Index Page =========================================
 
-function 
+function carregar(){
+    var horario = document.getElementById(`horario`)
+    var data = new Date()
+    var hora = data.getHours()
+    var min = data.getMinutes()
+    horario.innerHTML = `Agora são ${hora}:${min}`
+    
+}
+function checkTimeAndRefresh() {
+            const now = new Date();
+            const seconds = now.getSeconds();
 
-var horario = document.getElementById('horario')
+            // Atualiza a página no início de cada minuto (quando os segundos são 0)
+            if (seconds === 0) {
+                window.location.reload();
+            }
+        }
+
+        // Verifica a cada segundo
+        setInterval(checkTimeAndRefresh, 1000);
